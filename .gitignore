@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#Developmet configure
+.vscode
+build
