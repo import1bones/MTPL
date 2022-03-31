@@ -14,10 +14,37 @@ _ { } [ ] # ( ) < > % : ; . ? * + - / ^ & | ~ ! = , \ " '
 
 ### Keywords
 
+globe
+local
+
+if
+else
+
+for
+loop
+
+break
+
+byte
+word
+
+clear
+delete
+
 ### Identifiers
 
-Identifier : [a-zA-Z] | [a-zA-Z_]/[a-zA-Z1-9_]+
+Regular Expression: [a-zA-Z_][a-zA-Z1-9_]*
 
 ### Punctuators
+
+### constants
+
+#### integer
+Prefix basic character: 0 | 0x | 0X | -
+Suffix basic character: l | L | u | U
+
+#### float-point
+Prefix basic character: 0 | 0x | 0X | -
+Suffix basic character: l | L | u | U
 
 ### 
