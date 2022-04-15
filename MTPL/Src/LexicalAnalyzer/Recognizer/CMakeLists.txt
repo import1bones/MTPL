@@ -1,0 +1,1 @@
+add_library(Recognizer recognizer.cpp)

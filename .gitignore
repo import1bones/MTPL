@@ -33,4 +33,5 @@
 
 #Developmet configure
 .vscode
+.vs
 build
