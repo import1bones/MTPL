@@ -7,7 +7,7 @@ class lexicalAnalyzer
 private:
     /* data */
 public:
-    lexicalAnalyzer(/* args */);
+    static std::unique_ptr<lexicalAnalyzer> getInstance();
     ~lexicalAnalyzer();
 };
 

@@ -1,3 +1,3 @@
 
 
-add_library(Lib error.hpp types.hpp)
+add_library(Lib errors.hpp types.hpp)

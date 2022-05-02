@@ -2,13 +2,12 @@
 
 std::unique_ptr<lexicalAnalyzer> globe_lexicalInstance = nullptr;
 
-lexicalAnalyzer::lexicalAnalyzer(/* args */)
+
+std::unique_ptr<lexicalAnalyzer> lexicalAnalyzer::getInstance()
 {
-    if(globe_lexicalInstance == nullptr)
-        globe_lexicalInstance = std::unique_ptr<lexicalAnalyzer>(new lexicalAnalyzer);
+    if(globe_lexicalInstance != nullptr) return move(globe_lexicalInstance);
+    else globe_lexicalInstance = std::make_unique<lexicalAnalyzer>();
 }
-
-
 
 lexicalAnalyzer::~lexicalAnalyzer()
 {

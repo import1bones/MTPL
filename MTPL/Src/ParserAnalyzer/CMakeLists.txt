@@ -1,0 +1,1 @@
+add_library(ParserAnalyzer parserAnalyzer.cpp)

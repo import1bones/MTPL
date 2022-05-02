@@ -1,0 +1,1 @@
+add_library(IntermediateCodeGenerator intermediateCodeGenerator.cpp)
