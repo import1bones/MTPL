@@ -5,13 +5,16 @@
  * @brief recognize is a basic design for the core of lexical analyzer.
  * 
  */
-class recognizer
+namespace MTPL
 {
-private:
-    /* data */
-public:
-    recognizer(/* args */);
-    ~recognizer();
-};
+    class recognizer
+    {
+    private:
+        /* data */
+    public:
+        recognizer(/* args */);
+        ~recognizer();
+    };
+}
 
 #endif //MTPL_SRC_LEXICAL_RECOGNIZER_HPP

@@ -2,13 +2,20 @@
 #define MTPL_SRC_SYMBOL_TABLE
 #include<memory>
 
-class symbolTable
+namespace MTPL
 {
-private:
-    /* data */
-public:   
-    static std::unique_ptr<symbolTable> getInstance();
-    ~symbolTable();
+    class symbolTable
+    {
+    private:
+        /* data */
+    public:   
+        static std::unique_ptr<symbolTable> getInstance();
+        ~symbolTable();
+    };
+
+    extern std::unique_ptr<symbolTable> globe_symbolTableInstance;
 };
+
+
 
 #endif //MTPL_SRC_SYMBOL_TABLE

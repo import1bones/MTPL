@@ -20,23 +20,28 @@ _ { } [ ] # ( ) < > % : ; . ? * + - / ^ & | ~ ! = , \ " '
 
 ### Keywords
 
-globe
-local
+globe  
+local  
 
-if
-else
+if  
+else  
 
-for
-loop
+for  
+loop   
 
-break
+break  
 
-byte
-word
+byte  
+word  
 
-clear
-delete
+clear  
+delete  
 
+bit  
+byte  
+word  
+double  
+quadruple  
 ### Identifiers
 
 Regular Expression: [a-zA-Z_][a-zA-Z1-9_]*

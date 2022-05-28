@@ -1,3 +1,7 @@
+# State diagram
+this part will describe 
+
+
 # Finite automata
 
 
